@@ -4,6 +4,6 @@ def my_select(collection)
  while i > collection.size
  yield(collection[i])
  i = i + 1
+ return collection
  end
- collection
 end
